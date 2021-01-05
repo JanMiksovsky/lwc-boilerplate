@@ -1,0 +1,19 @@
+{
+  "name": "lwc-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate project for LWC apps",
+  "repository": "JanMiksovsky/lwc-boilerplate",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config",
+    "watch": "rollup --config --watch"
+  },
+  "devDependencies": {
+    "@lwc/compiler": "1.9.7",
+    "@lwc/engine": "1.9.7",
+    "@lwc/synthetic-shadow": "1.9.7",
+    "@rollup/plugin-node-resolve": "11.0.1",
+    "@rollup/plugin-replace": "2.3.4",
+    "rollup": "2.36.0"
+  }
+}
